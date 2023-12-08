@@ -7,8 +7,8 @@
 </head>
 <body>
     <div>
-        <h1>  В'ячеслав Грішаєв Миколайович	&#128274;</h1> 
-        <h2>07.09.2010 &#127829;</h2>
+        <h1>  -	&#128274;</h1> 
+        <h2>- &#127829;</h2>
         <p>Програмування&#9749;</p>
         <a href="#link">Кінець сторінки</a>
         <p>Lorem.</p>
@@ -196,24 +196,48 @@
 </div>
 
 <div>
-    <table border="1ыы">
-        <tr>
-            <td bgcolor="yellow"><b>№ п/п</b></td>
-            <td bgcolor="yellow"><b>Наименование</b></td>
-            <td bgcolor="blue"><b>Цена</b></td>
-        </tr>
-        <tr>
-            <td bgcolor="yellow">1</td>
-            <td bgcolor="yellow">Карандаш цветной</td>
-            <td bgcolor="blue">20.00</td>
-        </tr>
-        <tr>
-            <td bgcolor="yellow">2</td>
-            <td bgcolor="yellow">Линейка 20см</td>
-            <td bgcolor="blue">30.00</td>
-        </tr>
-    </table>
+    <video сontrols width="1500" height="1200" autoplay muted>
+            <source src="photos/ExampleVideo.720x480.mp4" type="video/mp4">
+            <source src="photos/ExampleVideo.720x480.Ogg" type="video/ogg">
+            <source src="photos/ExampleVideo.720x480.webm" type="video/webm">
+            <source src="photos/ExampleVideo.720x480.mkv" type="video/mp4">
+    </video>
+<br/>
+    <audio src="photos/ExampleAudio.mp3" controls>
+
+    </audio>
 </div>
 
+<div>
+    <form style="border: 7px solid #0500b8; padding: 10px 20px;" >
+        <label for="fname">Прізвище:</label> <br/>
+        <input type="text" name="fname" id="fname"> <br/>
+        <label for="sname">Ім'я:</label> <br/>
+        <input type="text" name="sname" id="sname"> <br/>
+
+        <input type="radio" name="city" id="kh" value="Kharkiv">
+        <label for="kh">Харків</label><br>
+
+        <input type="radio" name="city" id="kv" value="Kiev">
+        <label for="kh">Київ</label><br>
+
+        <input type="radio" name="city" id="od" value="Odesa">
+        <label for="kh">Одеса</label><br>
+
+
+
+        <input type="checkbox" name="winter" id="winter" value="Winter">
+        <label for="winter">Зима</label> <br>
+
+        <input type="checkbox" name="spring" id="spring" value="Spring">
+        <label for="winter">Весна</label><br>
+
+        <input type="checkbox" name="summer" id="summer" value="Summer">
+        <label for="winter">Літо</label><br>
+
+        <input type="checkbox" name="autumn" id="autumn" value="Autumn">
+        <label for="winter">Осінь</label>
+    </form>
+</div>
 </body>
 </html>
