@@ -1,0 +1,56 @@
+.test {
+    color: lightsalmon ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.test > form {
+    border: 5px solid #0500b8;
+    padding: 10px 20px;
+}
+
+.test > form > span {
+    font-size: xx-large;
+}
+
+.div2 {
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.test, .div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.loremText {
+    font-size: medium;
+    transition: font-size 2s;
+}
+
+.loremText:hover {
+    font-size: xx-large;
+}
+
+.task1 p:first-child {
+    color: red;
+}
+
+.task1 p:only-child {
+    color: #fff;
+}
+
+.task1 div:only-of-type {
+    background-color: blue;
+}
+
+.task1:last-child {
+    color: blue;
+}
+
+.task2 p::selection {
+    color: orange;
+    background-color: black;
+}
