@@ -1,3 +1,4 @@
+
 .test {
     color: lightsalmon ;
     display: flex;
@@ -44,6 +45,7 @@
 
 .task1 div:only-of-type {
     background-color: blue;
+    font-size: initial;
 }
 
 .task1:last-child {
@@ -53,4 +55,17 @@
 .task2 p::selection {
     color: orange;
     background-color: black;
+}
+
+.atext {
+    width: 25%;
+    font-size: 3rem;
+    background-color: hsla(111, 88%, 41%, 0.4);
+}
+
+.atext p {
+    font-size: 0.5em;
+    font-weight: 550;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

@@ -7,7 +7,7 @@ let $hours = $('hours');
 let $minutes = $('minutes');
 let $seconds = $('seconds');
 
-let targetDate = new Date('2023-12-31T23:59');
+let targetDate = new Date('2024-12-31T23:59');
 
 let updateTimer = () => {
     let totalInSec = Math.floor((targetDate.valueOf() - new Date().valueOf()) / 1000);
