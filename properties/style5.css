@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(2, 214, 2);
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+    color: (116, 114, 114, 0); 
+    font-style: italic;
+    opacity: 60%;
+    font-size: large;
+}
