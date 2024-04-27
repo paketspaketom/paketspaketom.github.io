@@ -1,0 +1,21 @@
+.red {
+    width: 60%;
+    min-width: 200px;
+    background-color: red;
+}
+
+.green {
+    width: 30%;
+    min-width: 75px;
+    background-color: green;
+}
+
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: right;
+    margin-bottom: 15px;
+}
+

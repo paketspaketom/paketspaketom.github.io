@@ -1,0 +1,28 @@
+.header {
+    display: block;
+    background-color: #cca500;
+    height: 150px;
+}
+
+.logo {
+    display: inline;
+}
+
+.navigation {
+    display: inline-block;
+    height: 150px;
+}
+
+ul { list-style-type: none;}
+li { float: left;}
+
+ul a {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}

@@ -1,0 +1,19 @@
+div {
+    margin: 5px;
+}
+
+.flex-container {
+    height: 130px;
+}
+
+.flex-container {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-container > div {
+    height: 1.8rem;
+    width: 47%;
+}
+

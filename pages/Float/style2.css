@@ -1,0 +1,9 @@
+div {
+    outline: 4px dashed red;
+}
+
+p {
+    
+    border-style: -5px;
+    outline-offset: -5px;
+}

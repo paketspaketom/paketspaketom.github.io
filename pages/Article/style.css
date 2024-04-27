@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20230412/pngtree-colorful-rhythmic-graphic-abstract-background-image_2206467.jpg") no-repeat fixed;
+}
+
+article {
+    background-color: rgba(240, 255, 255, 0.5);
+    margin: 3% 10%;
+    text-align: justify;
+}
+
+
+.main > div {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background: url("https://mykharkov.info/wp-content/uploads/2019/09/Untitled-1-24.png") round 25%;
+}

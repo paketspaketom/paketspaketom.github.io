@@ -1,0 +1,58 @@
+.TopBar {
+    background-color: #F1A061;
+    height: 100px;
+    min-width: 350px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.logo {
+    background-color: #EB6485;
+    float: left;
+    padding: 1.5em ;
+    margin: 1em;
+}
+
+.navigation {
+    background-color: #D86A51;
+    float: right;
+    padding: 1.5em;
+    margin: 1em;
+}
+
+.background {
+    background-color: #8FABC0;
+    height: 1200px;
+    color: white;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+.post {
+    background-color: #B7CE3F;
+    margin-bottom: 1em;
+    padding-bottom: 7em;
+    min-width: 740px;
+}
+
+.PostTitle {
+    padding: 0.3em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.Image {
+    background-color: #98AB35;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 1.3em;
+    padding: 1em 0em 0em 1em;
+    font-weight: bold;
+}
+
+.MainText {
+    background-color: #78862E;
+    margin-left: 24%;
+    padding: 1em;
+}

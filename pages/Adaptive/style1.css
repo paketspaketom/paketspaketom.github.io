@@ -1,0 +1,22 @@
+div {
+    border: 1px solid black;
+    background-color: red;
+}
+
+@media (max-device-width: 480px){
+    div {
+        background-color: green;
+    }
+}
+
+@media (min-device-width: 481px) and (max-device-width: 791px){
+    div {
+        background-color: blue;
+    }
+}
+
+@media (min-device-width: 792px){
+    div {
+        background-color: yellow;
+    }
+}

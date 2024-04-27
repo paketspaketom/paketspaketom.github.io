@@ -1,0 +1,14 @@
+.left, .right {
+    width: 20%;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,29 @@
+.float-r {
+    float: right;
+    width: 110px;
+}
+
+.float-l {
+    float: left;
+    width: 150px;
+}
+
+.float-cr {
+    float: right;
+    width: 35%;
+}
+
+.float-cl {
+    float: left;
+    width: 65%;
+}
+
+.float-ccr {
+    float: right;
+    width: 33%;
+}
+
+.float-ccl {
+    float: left;
+    width: 33%;
+}

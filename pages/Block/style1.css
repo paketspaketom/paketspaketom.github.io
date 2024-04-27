@@ -1,0 +1,13 @@
+div {
+    width: 15%;
+    border: solid black 1px;
+    min-width: 75px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}

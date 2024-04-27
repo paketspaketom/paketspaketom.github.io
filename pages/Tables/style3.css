@@ -1,0 +1,43 @@
+table {
+    border-spacing: 0px;
+    table-layout: fixed;
+    width: 200px;
+    height: 200px;
+}
+
+td {
+    border-radius: 50%;
+    border: 0px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.emptyRound {
+    border-radius: 0;
+}
+
+.roundTop {
+    border-radius: 50% 50% 0 0;
+}
+
+.roundBottom {
+    border-radius: 0 0 50% 50%;
+}
+
+.roundRight {
+    border-radius: 0 50% 50% 0;
+}
+
+.roundLeftTopCorner {
+    border-radius: 50% 0 0 0;
+}
+
+.roundLeftBottomCorner {
+    border-radius: 0 0 0 50%;
+}

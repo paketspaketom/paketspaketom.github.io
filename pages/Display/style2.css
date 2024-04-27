@@ -1,0 +1,17 @@
+.list {
+    margin-left: 15px;
+    display: list-item;
+    list-style-type: upper-alpha;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-blockf;
+}

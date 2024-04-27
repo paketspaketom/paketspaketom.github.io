@@ -1,0 +1,13 @@
+div {
+    margin: 10% auto;
+    width: 500px;
+    height: 500px;
+    background: url(https://sites.create-cdn.net/siteimages/14/6/9/146931/7501451.jpg?1383137711) no-repeat;
+    background-size: 500px 500px;
+    box-shadow: 
+        50px 50px 10px blue, 
+        -50px -50px 10px red,
+        20px -20px 5px inset green,
+        -20px 20px 5px inset black;
+
+}

@@ -1,0 +1,19 @@
+span {
+    border: 1px solid black;
+    background-color: yellow;
+    width: 100px;
+    height: 75px;
+    padding: 15px;
+    margin: 12px;
+}
+
+.dBlock {
+    display: block;
+}
+
+.dInlineBlock {
+    display: inline-block;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0;
+}

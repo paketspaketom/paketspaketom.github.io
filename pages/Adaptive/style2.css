@@ -1,0 +1,69 @@
+div {
+    border: 1px solid black;
+}
+
+@media (max-device-width: 481px) and (min-device-width: 780px){
+    div {
+        width: 600px;
+    }
+
+    .floatL, .floatR {
+        width: 150px;
+    }
+
+    .middle {
+        width: 300px;
+        float: none;
+    }
+
+    .floatL {
+        float: left;
+    }
+
+    .floatR {
+        float: right;
+    }
+}
+
+@media (min-device-width: 481px){
+    div {
+        width: 100%;
+    }
+
+    .floatL, .floatR {
+        width: 150px;
+    }
+
+    .floatL {
+        float: left;
+    }
+
+    .floatR {
+        float: right;
+    }
+}
+
+
+@media (min-device-width: 781px){
+    div {
+        width: 600px;
+    }
+
+    .floatL .floatR {
+        width: 150px;
+    }
+    
+    .floatL {
+        float: left;
+    } 
+
+    .floatR {
+        float: right;
+    }
+
+    .middle {
+        margin-left: 20%;
+        width: 50%;
+    }
+}
+
