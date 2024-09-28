@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <form name="search-person">
+        Шукати користувача:
+        <table id="age-table">
+            <tr>
+                <td>Вік:</td>
+                <td class="age-list">
+                    <label>
+                        <input type="radio" name="age" value="young"> молодше 18
+                    </label>
+                    <label>
+                        <input type="radio" name="age" value="mature"> 18-50
+                    </label>
+                    <label>
+                        <input type="radio" name="age" value="senior"> старіше 50
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Додатково</td>
+                <td>
+                    <input type="text" name="infp[1]">
+                    <input type="text" name="infp[2]">
+                    <input type="text" name="infp[3]">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Шукати!">
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
